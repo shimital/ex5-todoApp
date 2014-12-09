@@ -1,0 +1,53 @@
+
+	<form ng-submit='logSubmit()'>
+		<h3> login: </h3>
+		<table>
+			<tr>
+				<td>username: </td>
+				<td>
+					<input type='text' ng-model='logData.username'> </input> 
+				</td>
+			</tr>
+			<tr>
+				<td> password: </td>
+				<td>
+					<input type='password' ng-model='logData.password'> </input>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<input type='submit' value='log in'> </input>
+	</form>
+	<form ng-submit='registerSubmit()'>
+		<h3> register: </h3>
+		
+		<table>
+			<tr>
+				<td>full-name: </td>
+				<td>
+					<input type='text' ng-model='registerData.fullName'> </input>
+				</td>
+			</tr>
+			<tr>
+				<td> username: </td>
+				<td>
+					<input type='text' ng-model='registerData.username'> </input>
+				</td>
+			</tr>
+			<tr>
+				<td>password: </td>
+				<td>
+					<input type='password' ng-model='registerData.password'> </input> 
+				</td>
+			</tr>
+			<tr>
+				<td> password-verification: </td>
+				<td>
+					<input type='password' ng-model='registerData.passwordVerification'> </input>
+				</td>
+			</tr>
+		</table>
+		<input id='regButton' type='submit' value='register'> </input>
+		<br><br>
+		<div id=> {{serverResponse}} </div>
+	</form>
