@@ -1,8 +1,8 @@
-var express = require('./miniExpress');
-var http = require('./miniHttp');
+var express = require('./ex4WebServer/miniExpress');
+var http = require('./ex4WebServer/miniHttp');
 var app = express();
 var users = require('./users');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 
 
 app.post("/register",express.json());
