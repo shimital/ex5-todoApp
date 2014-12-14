@@ -3,6 +3,6 @@
 	
 	"version": "1.0.0",
 	"dependencies": {
-		"webserver" : "https://github.com/shimital/ex4-webserver.git"
+		"webserver" : "shimital-ex4-webserver"
 	}
 }
