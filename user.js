@@ -3,6 +3,7 @@ var http = require('./ex4WebServer/miniHttp');
 var app = express();
 var users = require('./users');
 var uuid = require('uuid');
+console.log("starting to initialize!!!!!!!!!!!1")
 
 
 app.post("/register",express.json());
