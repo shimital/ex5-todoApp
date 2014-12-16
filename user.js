@@ -109,4 +109,4 @@ app.get("/partials",express.static(__dirname + "/partials"));
 
 app.use("/",express.static(__dirname));
 
-http.createServer(app).listen(5000);
+http.createServer(app).listen(process.env.PORT || 5000);

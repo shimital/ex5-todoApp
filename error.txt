@@ -1,0 +1,70 @@
+2014-12-16T11:05:36.032391+00:00 heroku[api]: Enable Logplex by shimi269@yahoo.com
+2014-12-16T11:05:36.032391+00:00 heroku[api]: Release v2 created by shimi269@yahoo.com
+2014-12-16T11:06:20.137448+00:00 heroku[api]: Deploy cae972c by shimi269@yahoo.com
+2014-12-16T11:06:20.137448+00:00 heroku[api]: Release v3 created by shimi269@yahoo.com
+2014-12-16T11:07:22.255155+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shimital-todoapp.herokuapp.com request_id=2a78be4e-1fa4-4866-8e0e-c60affcbf0cd fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:07:22.986617+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=3e236232-747b-45af-b19c-d6d2fd15116f fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:07:23.489165+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=c9aa59d5-67f3-4c67-86f5-45e3ee96bddb fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:18:28.069433+00:00 heroku[api]: Deploy 1fadb70 by shimi269@yahoo.com
+2014-12-16T11:18:28.069433+00:00 heroku[api]: Release v4 created by shimi269@yahoo.com
+2014-12-16T11:19:03.517346+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shimital-todoapp.herokuapp.com request_id=ce0ecdd1-1646-4329-82fe-97b34099cb68 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:19:04.322929+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=99def4e2-f397-45d7-a8f1-3ce6ee78a172 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:19:04.859269+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=20379b62-a31c-46f0-8fe9-d4e3fbe2ee31 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:27:30.584952+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=shimital-todoapp.herokuapp.com request_id=622fc479-62bc-480a-bacd-0ba91a944d04 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:27:31.276781+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=bec1b8e4-0153-4479-a721-ad52cd93c361 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:27:31.771509+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=20cd2acb-edb6-41c6-b357-abca1f712c40 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:30:56.674334+00:00 heroku[api]: Deploy 7ed2036 by shimi269@yahoo.com
+2014-12-16T11:30:56.674334+00:00 heroku[api]: Release v5 created by shimi269@yahoo.com
+2014-12-16T11:33:32.113242+00:00 heroku[api]: Deploy 8420e9f by shimi269@yahoo.com
+2014-12-16T11:33:32.113270+00:00 heroku[api]: Release v6 created by shimi269@yahoo.com
+2014-12-16T11:33:43.276601+00:00 heroku[api]: Scale to web=1 by shimi269@yahoo.com
+2014-12-16T11:33:45.083430+00:00 heroku[web.1]: Starting process with command `npm start`
+2014-12-16T11:33:46.012536+00:00 app[web.1]: > node user.js
+2014-12-16T11:33:46.012515+00:00 app[web.1]: 
+2014-12-16T11:33:46.012533+00:00 app[web.1]: > shimital-ex5-todoApp@1.0.0 start /app
+2014-12-16T11:33:46.012537+00:00 app[web.1]: 
+2014-12-16T11:34:45.250507+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2014-12-16T11:34:45.221668+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-12-16T11:34:45.221868+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-12-16T11:34:45.877128+00:00 heroku[web.1]: Process exited with status 22
+2014-12-16T11:34:45.887610+00:00 heroku[web.1]: State changed from starting to crashed
+2014-12-16T11:34:45.888937+00:00 heroku[web.1]: State changed from crashed to starting
+2014-12-16T11:34:48.947652+00:00 heroku[web.1]: Starting process with command `npm start`
+2014-12-16T11:34:54.583322+00:00 app[web.1]: > shimital-ex5-todoApp@1.0.0 start /app
+2014-12-16T11:34:54.583324+00:00 app[web.1]: > node user.js
+2014-12-16T11:34:54.583325+00:00 app[web.1]: 
+2014-12-16T11:34:54.583284+00:00 app[web.1]: 
+2014-12-16T11:35:14.663194+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=shimital-todoapp.herokuapp.com request_id=915c9f31-b1e8-4aff-84f1-ad550c2f03cf fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:35:36.281175+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=shimital-todoapp.herokuapp.com request_id=2d41cbca-2507-4300-82cd-0fd770c550cf fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:35:49.119815+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-12-16T11:35:49.120217+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-12-16T11:35:50.071954+00:00 heroku[web.1]: Process exited with status 137
+2014-12-16T11:35:50.081544+00:00 heroku[web.1]: State changed from starting to crashed
+2014-12-16T11:37:33.381437+00:00 heroku[api]: Scale to web=1 by shimi269@yahoo.com
+2014-12-16T11:37:45.163391+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shimital-todoapp.herokuapp.com request_id=fc9e3a7f-47fe-45c6-bd99-bcc66d076f17 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:37:46.092245+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=5378ef42-07e3-4997-9702-e7fac7d096d8 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T11:37:46.624736+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=e9335adc-09f4-4484-ba76-648ea7b92fb0 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T12:08:46.887724+00:00 heroku[web.1]: State changed from crashed to starting
+2014-12-16T12:08:49.316947+00:00 heroku[web.1]: Starting process with command `npm start`
+2014-12-16T12:08:51.261430+00:00 app[web.1]: 
+2014-12-16T12:08:51.261452+00:00 app[web.1]: > shimital-ex5-todoApp@1.0.0 start /app
+2014-12-16T12:08:51.261455+00:00 app[web.1]: > node user.js
+2014-12-16T12:08:51.261456+00:00 app[web.1]: 
+2014-12-16T12:09:49.702492+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-12-16T12:09:49.702796+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-12-16T12:09:50.597489+00:00 heroku[web.1]: Process exited with status 137
+2014-12-16T12:09:50.610119+00:00 heroku[web.1]: State changed from starting to crashed
+2014-12-16T13:00:00.087954+00:00 heroku[web.1]: State changed from crashed to starting
+2014-12-16T13:00:02.214855+00:00 heroku[web.1]: Starting process with command `npm start`
+2014-12-16T13:00:03.723109+00:00 app[web.1]: 
+2014-12-16T13:00:03.723130+00:00 app[web.1]: > shimital-ex5-todoApp@1.0.0 start /app
+2014-12-16T13:00:03.723133+00:00 app[web.1]: > node user.js
+2014-12-16T13:00:03.723135+00:00 app[web.1]: 
+2014-12-16T13:01:02.848793+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-12-16T13:01:02.849132+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-12-16T13:01:03.619534+00:00 heroku[web.1]: Process exited with status 137
+2014-12-16T13:01:03.629752+00:00 heroku[web.1]: State changed from starting to crashed
+2014-12-16T14:15:57.792493+00:00 heroku[api]: Scale to web=1 by shimi269@yahoo.com
+2014-12-16T14:22:13.375952+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shimital-todoapp.herokuapp.com request_id=92b9adfe-f3a3-4daa-a2bf-5df90f7c3d22 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T14:22:14.051707+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=2bf89d47-406a-4cf1-a533-50ad8362de10 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
+2014-12-16T14:22:14.613368+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shimital-todoapp.herokuapp.com request_id=7ace1373-a221-4f2f-ab50-c32741abbd81 fwd="84.109.125.176" dyno= connect= service= status=503 bytes=
