@@ -1,8 +1,5 @@
 {
   "name": "shimital-ex5-todoApp",
   "version": "1.0.0",
-  "main": "./user.js",
-  "scripts": {
-    "start": "node user.js"
-  }
+  "main": "./user.js"
 }
