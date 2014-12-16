@@ -1,8 +1,4 @@
 {
-	"name": "todoApp",
-	
-	"version": "1.0.0",
-	"dependencies": {
-		"webserver" : "shimital-ex4-webserver"
-	}
+  "name": "shimital-ex5-todoApp",
+  "version": "1.0.0"
 }
