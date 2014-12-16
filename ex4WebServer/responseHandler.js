@@ -48,7 +48,8 @@ function createResponse(rootResource,rootFolder,req,res,next){
 					res.set("Content-Type",contentTypeResult);
 					var filesize = getFileSize(stats);
 					res.set("Content-Length",filesize);
-					var fileAsAstream = fs.createReadStream(file);	
+					var fileAsAstream = fs.createReadStream(file);
+					console.log("starting sending response!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 					fileAsAstream.on('readable',function(){
 						var buf;
 						while((buf = fileAsAstream.read()) != null){

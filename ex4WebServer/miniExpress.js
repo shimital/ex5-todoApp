@@ -28,7 +28,8 @@ function shouldHandle(method,reqMethod){
 /*
  * Returns the app functionality.
  */
-var miniExpress = function(){
+var miniExpress = function () {
+    console.log("starting to go over middlewares!!!!!!!!!!!!!!!!!!!");
 	var app = function(request,response){
 		for(var i = 0; i < reqHandlers.length; i++){
 			if(match(reqHandlers[i].resourcePre,request.url)){
