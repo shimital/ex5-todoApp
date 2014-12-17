@@ -53,7 +53,7 @@ function createResponse(rootResource,rootFolder,req,res,next){
                     /////////////////////////////////
 					fileAsAstream.pipe(res.httpRes.sock, { end: false });
 					fileAsAstream.on('end', function () {
-					    res.httpRes.end();
+					    res.httpRes.sock.destroy();
 					});
 					//fileAsAstream.on('readable',function(){
 					//	var buf;
