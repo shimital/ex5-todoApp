@@ -56,6 +56,12 @@ function createResponse(rootResource,rootFolder,req,res,next){
 							res.send(buf);
 						} 
 					});
+					fileAsAstream.on('end', function () {
+					    if (req.get("Connection") === "close") {
+					        console.log("################ closing socket");
+					        res.httpRes.end();
+					    }
+					});
 				}
 			}
 			else{

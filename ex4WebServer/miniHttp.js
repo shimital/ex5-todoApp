@@ -46,9 +46,6 @@ function createServer(handler){
 			if(params.partialRequest === null){ //we received full request
 				var httpRequest = new IncomingMessage(socket,params);//incoming message object.
 				handler(httpRequest, httpResponse);
-			    //////////////////////////////////////////
-				httpResponse.end();
-                //////////////////////////////////////////
 				partialRequest = "";
 			}
 			else{
