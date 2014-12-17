@@ -54,13 +54,8 @@ function createResponse(rootResource,rootFolder,req,res,next){
 						while ((buf = fileAsAstream.read()) != null) {
 						    console.log("############################ sending!!");
 							res.send(buf);
-						} 
-					});
-					fileAsAstream.on('end', function () {
-					    if (req.get("Connection") === "close") {
-					        console.log("################ closing socket");
-					        res.httpRes.end();
-					    }
+						}
+						res.httpRes.end();
 					});
 				}
 			}
