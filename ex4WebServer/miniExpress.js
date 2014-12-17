@@ -412,7 +412,7 @@ function createRes(response){
 		res.httpRes.setHeader('Set-Cookie',cookieValue);
 	};
 	res.send = function(bodyOrStatus,body){
-		
+	    console.log("################### in res.send");
 		if(body === undefined && typeof bodyOrStatus === 'number'){ //we received only status code
 			res.httpRes.write(miniHttp.STATUS_CODES[bodyOrStatus]);
 			return;
