@@ -57,6 +57,7 @@ function createResponse(rootResource,rootFolder,req,res,next){
 						    console.log("############################ sending!!");
 						    res.send(buf);
 						    console.log(JSON.stringify(res.httpRes.sock.address()));
+						    console.log("#################################33");
 						}
 					});
 				}
