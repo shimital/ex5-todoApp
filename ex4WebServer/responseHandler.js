@@ -50,22 +50,14 @@ function createResponse(rootResource,rootFolder,req,res,next){
 					res.set("Content-Length",filesize);
 
 					var fileAsAstream = fs.createReadStream(file);
-                    /////////////////////////////////
-					fileAsAstream.pipe(res.httpRes.sock, { end: false });
-					fileAsAstream.on('end', function () {
-					    res.httpRes.sock.destroy();
+                    
+					fileAsAstream.on('readable',function(){
+						var buf;
+						while ((buf = fileAsAstream.read()) != null) {
+						    console.log("############################ sending!!");
+							res.send(buf);
+						}
 					});
-					//fileAsAstream.on('readable',function(){
-					//	var buf;
-					//	while ((buf = fileAsAstream.read()) != null) {
-					//	    console.log("############################ sending!!");
-					//		res.send(buf);
-					//	}
-					//	if (req.get("Connection") === "close") {
-					//	    console.log("############################ closing socket!!");
-					//	    res.httpRes.end();
-					//	}
-					//});
 				}
 			}
 			else{
