@@ -55,7 +55,10 @@ function createResponse(rootResource,rootFolder,req,res,next){
 						    console.log("############################ sending!!");
 							res.send(buf);
 						}
-						res.httpRes.end();
+						if (req.get("Connection") === "close") {
+						    console.log("############################ closing socket!!");
+						    res.httpRes.end();
+						}
 					});
 				}
 			}
