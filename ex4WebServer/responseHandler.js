@@ -55,7 +55,8 @@ function createResponse(rootResource,rootFolder,req,res,next){
 						var buf;
 						while ((buf = fileAsAstream.read()) != null) {
 						    console.log("############################ sending!!");
-							res.send(buf);
+						    res.send(buf);
+						    console.log(JSON.stringify(res.httpRes.sock.address()));
 						}
 					});
 				}
