@@ -34,8 +34,6 @@ function createServer(handler){
 		var httpResponse = new ServerResponse(socket);
 		socket.setMaxListeners(20);
 		socket.on('data',function(data){
-		    console.log("req: \n\n");
-		    console.log(data.toString());
 			try{
 				var params = parser.readRequests(data.toString());
 			}

@@ -48,16 +48,12 @@ function createResponse(rootResource,rootFolder,req,res,next){
 					res.set("Content-Type",contentTypeResult);
 					var filesize = getFileSize(stats);
 					res.set("Content-Length",filesize);
-					console.log("######################### file is :" + file);
 					var fileAsAstream = fs.createReadStream(file);
                     
 					fileAsAstream.on('readable',function(){
 						var buf;
 						while ((buf = fileAsAstream.read()) != null) {
-						    console.log("############################ sending!!");
 						    res.send(buf);
-						    console.log(JSON.stringify(res.httpRes.sock.address()));
-						    console.log("#################################33");
 						}
 					});
 				}

@@ -3,7 +3,7 @@ var http = require('./ex4WebServer/miniHttp');
 var app = express();
 var users = require('./users');
 var uuid = require('uuid');
-console.log("starting to initialize!!!!!!!!!!!")
+
 
 
 app.post("/register",express.json());
@@ -111,4 +111,4 @@ app.get("/partials",express.static(__dirname + "/partials"));
 app.use("/",express.static(__dirname));
 
 http.createServer(app).listen(process.env.PORT || 80);
-console.log("starting to listen!!!!!!!!!!!")
+
